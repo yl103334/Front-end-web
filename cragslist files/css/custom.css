@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../image/4.png);
+    background-size: 1800px 1000px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    height: 115vh;
+   
+}
+main {
+    flex: 1;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #023535;
+    color: white;
+}
+
+.nav-left {
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+}
+
+#nav-logo {
+    max-width: 50px;
+    margin-right: 15px;
+}
+
+h1 {
+    color: #FACFCE;
+    font-size: 24px;
+}
+
+.nav-right {
+    padding: 0 100px;
+    display: flex;
+    gap: 50px;
+}
+
+.nav-right a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+
+.icon {
+
+    max-width: 30px;
+}
+
+.search-container {
+    position: absolute;
+    top: 26.9%; 
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-container input[type="text"] {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px 0 0 4px; 
+    outline: none;
+    width: 400px;
+    height: 50px; 
+}
+
+.search-container button {
+    padding: 27px 10px;
+    border: none;
+}
+
+
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px; 
+    position: relative;
+    top: 350px; 
+    left: 2%;
+    
+}
+.button-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px; 
+    position: relative;
+    top: 400px;
+    left: 2%;
+
+}
+.square-btn {
+    width: 200px;  
+    height: 200px; 
+    background-color: #008F8C; 
+    color: white; 
+    border: none;
+    border-radius: 4px;
+}
+
+
+footer {
+    background-color: #023535;
+    color: #fff;
+    padding: 0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    display: flex;
+    padding: 0 10px;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 10px;
+}
+
+.footer-section h4 {
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
